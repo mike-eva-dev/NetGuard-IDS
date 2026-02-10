@@ -38,6 +38,15 @@ Importa il file `intrusion_logs.sql` in phpMyAdmin per creare la struttura:
 Per far funzionare lo sniffer, è necessario installare Python e le librerie richieste tramite `pip`. Apri il terminale e digita:
 ```pip install scapy mysql-connector-python```
 
+Per la Dashboard Java
+Per permettere a Java di comunicare con MySQL, è fondamentale includere il driver `JDBC Connector/J`:
+
+Scarica il file `.jar (MySQL Connector/J)`.
+
+Aggiungi il file al Build Path del tuo progetto Java (in Eclipse/IntelliJ o tramite riga di comando).
+
+`Requisito Software: XAMPP attivo con i moduli Apache e MySQL avviati.`
+
 ### 3. Esecuzione del Sistema
 - Avvia `XAMPP` e attiva i moduli `Apache` e `MySQL`.
 
@@ -78,6 +87,6 @@ Il progetto prevede l'integrazione di una Dashboard sviluppata in **Java (Swing)
 - [x] Sviluppo dello sniffer Python con Scapy.
 - [x] Integrazione database MySQL.
 - [x] Analisi euristica (Port Scan, Blacklist, Esfiltrazione).
-- [ ] **Sviluppo Dashboard Java (Work in Progress)**: Prevista l'implementazione dell'interfaccia grafica per il monitoraggio centralizzato.
-
+- [x] Sviluppo Dashboard Java: Prevista l'implementazione dell'interfaccia grafica per il monitoraggio centralizzato.
+FINITO!
 > **Nota di trasparenza**: La documentazione (README) è stata ottimizzata con l'ausilio di strumenti IA per garantire chiarezza e rapidità di consultazione. Il codice sorgente e la logica di analisi sono stati interamente sviluppati dal sottoscritto.
