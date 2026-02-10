@@ -20,9 +20,11 @@ Il sistema analizza ogni pacchetto IP e applica tre livelli di controllo per ide
 * **Connettore**: `mysql-connector-python`
 
 ## 📂 Struttura dei File Caricati
-
+`core-sniffer`:
 * `sniffer_to_db.py`: Lo script principale che gestisce la cattura, l'analisi e il salvataggio dei log.
 * `blacklist.txt`: File di configurazione contenente gli IP da bloccare (include intestazione di sicurezza).
+
+`fuori (ponte)`:
 * `intrusion_logs.sql`: Dump SQL per la creazione automatica del database `intrusion_logs` e della tabella `log`.
 
 ## 🔧 Configurazione e Utilizzo
