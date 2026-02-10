@@ -1,6 +1,0 @@
-!!!!!INSERIRE UN IP A RIGA, IMPORTANTE!!!!! --non rimuovere l'intestazione.
-8.8.8.8
-1.1.1.1
-45.33.32.156
-185.156.177.20
-167.99.209.131
