@@ -77,3 +77,5 @@ Il progetto prevede l'integrazione di una Dashboard sviluppata in **Java (Swing)
 - [x] Integrazione database MySQL.
 - [x] Analisi euristica (Port Scan, Blacklist, Esfiltrazione).
 - [ ] **Sviluppo Dashboard Java (Work in Progress)**: Prevista l'implementazione dell'interfaccia grafica per il monitoraggio centralizzato.
+
+> **Nota di trasparenza**: La documentazione (README) è stata ottimizzata con l'ausilio di strumenti IA per garantire chiarezza e rapidità di consultazione. Il codice sorgente e la logica di analisi sono stati interamente sviluppati dal sottoscritto.
